@@ -1,0 +1,14 @@
+create table tbCliente3
+(CPF VARCHAR(11),
+NOME varchar(100),
+ENDERECO1 varchar(150),
+ENDERECO2 varchar(150),
+BAIRRO varchar(50),
+CIDADE varchar(50),
+ESTADO VARCHAR (50),
+CEP VARCHAR (8),
+IDADE smallint,
+SEXO varchar(1),
+LIMITE_CREDITO float,
+VOLUME_COMPRAS FLOAT,
+PRIMEIRA_COMPRA BIT(1))
